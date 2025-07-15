@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Purva P. Sawarkar</div>
+      <p class="tagline">Aspiring Data Scientist | Cloud Enthusiast</p>
+    </header>
+
+    <section id="about">
+      <img src="purva6.jpg" class="profile-img" />
+
+      <div class="bio">
+        <h2>About Me</h2>
+        <p>
+          Proactive and analytically driven Data Science student with a strong
+          academic record (CGPA: 8.2). Passionate about cloud engineering and
+          actively building skills through continuous learning on platforms like
+          AWS. Adept at problem-solving, team collaboration, and effective
+          communication. 
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul class="skills-bullets">
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>SQL (Basics)</li>
+        <li>HTML & CSS</li>
+        <li>Data Analysis</li>
+        <li>Cloud Computing (AWS learning)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>ISP Management System</h3>
+          <span class="icon" onclick="openModal('isp-project.png')">📷</span>
+        </div>
+        <p>
+          GUI-based system using Tkinter and MySQL to manage customer plans and
+          login dashboard.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Vegetable E-commerce Website</h3>
+          <span class="icon" onclick="openModal('vegetables.png')">📷</span>
+        </div>
+        <p>
+          Online vegetables andd fruits ordering website built using HTML and
+          CSS. Includes homepage, product catalog, slider, login, add to cart
+          and checkout layout.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Restaurant E-commerce Website</h3>
+          <span class="icon" onclick="openModal('restaurant.png')">📷</span>
+        </div>
+        <p>
+          A stylish online food ordering website built using HTML and CSS.
+          Includes homepage, menu section, and checkout layout.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Parallax Scrolling Website</h3>
+          <span class="icon" onclick="openModal('parallax.png')">📷</span>
+        </div>
+        <p>
+          Creative scrolling effect website made using pure HTML and CSS with
+          layered visual sections.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Job Application Form</h3>
+          <span class="icon" onclick="openModal('form.png')">📷</span>
+        </div>
+        <p>
+          Professional form layout with styled inputs, labels, and sections
+          built using clean HTML and CSS.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>MyTunes Music Website</h3>
+          <span class="icon" onclick="openModal('mytunes.png')">📷</span>
+        </div>
+        <p>
+          A music-themed website inspired by Apple Music, designed with
+          responsive layout and sectioned features.
+        </p>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <a href="files/Purva_Resume.pdf" class="resume-btn" download
+        >📄 Download Resume</a
+      >
+    </section>
+
+    <script src="script.js"></script>
+
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage" />
+    </div>
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>
+          📧 Email:
+          <a href="mailto:purvasawarkar2006.com">purvasawarkar2006@gmail.com</a>
+        </p>
+        <p>📞 Phone: +91-9607206222</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Purva Sawarkar | All rights reserved.</p>
+    </footer>
+  </body>
+</html>
